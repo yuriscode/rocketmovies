@@ -12,14 +12,16 @@ export default createGlobalStyle`
     }
 
     body{
-        font-family: 'Roboto Slab', serif;;
         background-color: ${({ theme }) => theme.colors.background};
+        color: ${({ theme }) => theme.colors.white};
         -webkit-font-smoothing: antialiased;
     }
 
     body, input, button, textarea{
         font-size: 1.6rem;
         outline: none;
+
+        font-family: 'Roboto Slab', serif;
     }
 
     a{
