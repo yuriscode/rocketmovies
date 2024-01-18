@@ -12,6 +12,7 @@ export default createGlobalStyle`
     }
 
     body{
+        font-family: 'Roboto Slab', serif;;
         background-color: ${({ theme }) => theme.colors.background};
         -webkit-font-smoothing: antialiased;
     }
