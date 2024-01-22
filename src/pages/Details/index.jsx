@@ -2,13 +2,16 @@ import { Container, Content, CreatedBy, CreatedAt } from './styles';
 import { Header } from '../../components/header';
 import { Stars } from '../../components/Stars';
 import { Tags } from '../../components/Tags';
-import { FiClock } from "react-icons/fi";
+import { ButtonText } from '../../components/ButtonText';
+import { FiClock, FiArrowLeft } from "react-icons/fi";
 
 export function Details() {
     return (
         <Container>
             <Header />
             <Content>
+                <ButtonText title='Voltar' icon={FiArrowLeft} />
+
                 <div className='title'>
                     <h1>Interestellar</h1>
                     <Stars />
