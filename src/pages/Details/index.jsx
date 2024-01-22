@@ -1,6 +1,7 @@
 import { Container, Content, CreatedBy, CreatedAt } from './styles';
 import { Header } from '../../components/header';
 import { Stars } from '../../components/Stars';
+import { Tags } from '../../components/Tags';
 import { FiClock } from "react-icons/fi";
 
 export function Details() {
@@ -8,7 +9,7 @@ export function Details() {
         <Container>
             <Header />
             <Content>
-                <div>
+                <div className='title'>
                     <h1>Interestellar</h1>
                     <Stars />
                 </div>
@@ -22,6 +23,12 @@ export function Details() {
                         <FiClock />
                         <p>18/01/2023 às 21:00</p>
                     </CreatedAt>
+                </div>
+
+                <div className="tags">
+                    <Tags title='Ficção Científica' />
+                    <Tags title='Drama' />
+                    <Tags title='Família' />
                 </div>
 
                 <span>

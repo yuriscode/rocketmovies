@@ -11,11 +11,13 @@ export const Container = styled.div`
         "content";
 `
 export const Content = styled.div`
+    display: flex;
+    flex-direction: column;
     margin-top: 4rem;
     grid-area: content;
     padding: 0 12.3rem;
 
-    > div {
+    > .title {
         display: flex;
         align-items: center;
         margin-bottom: 2.4rem;
@@ -27,7 +29,12 @@ export const Content = styled.div`
         }
     }
 
-    .info{
+    > .tags {
+        display: flex;
+        margin-bottom: 4rem;
+    }
+
+    > .info{
         display: flex;
         gap: 1.6rem;
         margin-bottom: 4rem;
