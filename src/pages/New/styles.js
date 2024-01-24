@@ -26,5 +26,6 @@ export const Content = styled.div`
     > .input-wrapper {
         display: flex;
         gap: 4rem;
+        margin-bottom: 4rem;
     }
 `

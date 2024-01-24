@@ -10,7 +10,7 @@ export const Container = styled.input`
     padding: 1.9rem 2.4rem;
 
     background-color: ${({ theme }) => theme.colors.inputColor};
-    color: ${({ theme }) => theme.colors.details};
+    color: ${({ theme }) => theme.colors.white};
 
     &::placeholder{
         font-size: 1.4rem;
