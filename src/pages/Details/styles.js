@@ -4,18 +4,22 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
 
+    
+
     display: grid;
     grid-template-rows: 11.6rem auto;
     grid-template-areas: 
         "header"
         "content";
+    
 `
 export const Content = styled.div`
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
     grid-area: content;
+    
     padding: 0 12.3rem;
+    overflow-Y: auto;
 
     > .title {
         display: flex;
@@ -44,6 +48,8 @@ export const Content = styled.div`
         text-align: justify;
         font-size: 1.6rem;
         font-weight: 400;
+
+        margin-bottom: 4rem;
 
     }
 `
@@ -82,3 +88,4 @@ export const CreatedAt = styled.div`
         font-weight: 400;
     }
 `
+

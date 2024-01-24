@@ -5,6 +5,7 @@ export const Container = styled.header`
     height: 11.6rem;
     width: 100%;
 
+
     grid-area: header;
 
     border-bottom: .1rem solid ${({ theme }) => theme.colors.lineColor};
@@ -21,7 +22,7 @@ export const Container = styled.header`
 
         color: ${({ theme }) => theme.colors.pink};
     }
-`   
+`
 
 export const Profile = styled.div`
     display: flex;
